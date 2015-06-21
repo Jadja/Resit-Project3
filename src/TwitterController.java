@@ -19,9 +19,9 @@ import java.util.*;
 public class TwitterController {
 
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://85.17.199.99:3306/boerme1q_twitter";
-    static final String USERNAME = "boerme1q_infuser";
-    static final String PASSWORD = "?n5AJT9ObID{";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/jadja_twitter";
+    static final String USERNAME = "root";
+    static final String PASSWORD = "root";
     Statement db_stmt = null;
 
     public Button btn;
@@ -45,7 +45,7 @@ public class TwitterController {
     public Label text8;
 
     String Tweet1;String Tweet2;String Tweet3;String Tweet4;String Tweet5;String Tweet6;String Tweet7;String Tweet8;String Tweet9;String Tweet10;String Tweet11;String Tweet12;String Tweet13;String Tweet14;String Tweet15;String Tweet16;String Tweet17;String Tweet18;String Tweet19;String Tweet20;
-    String SSTweet1;String SSTweet2;String SSTweet3;String SSTweet4;String SSTweet5;String SSTweet6;String SSTweet7;String SSTweet8;String SSTweet9;String SSTweet10;String SSTweet11;String SSTweet12;String SSTweet13;String SSTweet14;String SSTweet15;String SSTweet16;String SSTweet17;String SSTweet18;String SSTweet19;String SSTweet20;
+    String SSTweet1 = "";String SSTweet2 = "";String SSTweet3 = "";String SSTweet4 = "";String SSTweet5 = "";String SSTweet6 = "";String SSTweet7 = "";String SSTweet8 = "";String SSTweet9 = "";String SSTweet10 = "";String SSTweet11 = "";String SSTweet12 = "";String SSTweet13 = "";String SSTweet14 = "";String SSTweet15 = "";String SSTweet16 = "";String SSTweet17 = "";String SSTweet18 = "";String SSTweet19 = "";String SSTweet20 = "";
     String MFTweet1;String MFTweet2;String MFTweet3;String MFTweet4;String MFTweet5;String MFTweet6;String MFTweet7;String MFTweet8;String MFTweet9;String MFTweet10;String MFTweet11;String MFTweet12;String MFTweet13;String MFTweet14;String MFTweet15;String MFTweet16;String MFTweet17;String MFTweet18;String MFTweet19;String MFTweet20;
     
 
@@ -95,7 +95,7 @@ public class TwitterController {
                     conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
                     db_stmt = conn.createStatement();
                     //System.out.println(status.getCreatedAt());
-                    String sql = "INSERT INTO boerme1q_twitter.tweet "
+                    String sql = "INSERT INTO jadja_twitter.tweet "
                             + "(tweet_id,username, description, tags, is_retweet, total_retweets, total_favorites, total_followers, time_stamp) "
                             + "VALUES (?,?,?,?,?,?,?,?,?) "
                             + "ON DUPLICATE KEY UPDATE "
@@ -105,12 +105,12 @@ public class TwitterController {
                             + "time_stamp = VALUES(time_stamp) ";
 
                     //System.out.println(t_id);
-//                    String sql = "IF EXISTS (SELECT * FROM boerme1q_twitter.tweet WHERE tweet_id = t_id) "
-//                            + "UPDATE boerme1q_twitter.tweet "
+//                    String sql = "IF EXISTS (SELECT * FROM jadja_twitter.tweet WHERE tweet_id = t_id) "
+//                            + "UPDATE jadja_twitter.tweet "
 //                            + "SET username = t_username, description = t_discription, is_retweet = t_is_retweet, total_retweets = t_retweetCount, total_favorites = t_favoriteCount, total_followers = t_followerCount "
 //                            + "WHERE tweet_id = t_id "
 //                            + "ELSE "
-//                            + "INSERT INTO boerme1q_twitter.tweet "
+//                            + "INSERT INTO jadja_twitter.tweet "
 //                            + "(tweet_id,username, description, tags, is_retweet, total_retweets, total_favorites, total_followers, time_stamp) "
 //                            + "VALUES (?,?,?,?,?,?,?,?,?)";
 
@@ -128,7 +128,6 @@ public class TwitterController {
                     preparedStatement2.setInt(8, t_followerCount);
                     preparedStatement2.setString(9, t_date_format);
                     //    preparedStatement2.setTimestamp(9, "2015-04-01");
-                    preparedStatement2.setString(9, "2008-11-11");
 
 
 //                    preparedStatement2.setInt(1, 2);
@@ -172,9 +171,10 @@ public class TwitterController {
 
             int tweetnum = 1;
             System.out.println("Getting Tweets about SS Rotterdam...");
-            while (rs.next() | tweetnum < 20) {
+            while (rs.next() && tweetnum <= 20) {
 
                 String text = rs.getString("description");
+
 
                 if (tweetnum == 1) {
                     Tweet1 = text;
@@ -220,13 +220,13 @@ public class TwitterController {
                 tweetnum++;
             }
 
-            PreparedStatement getSSTweets = conn.prepareStatement("SELECT * FROM tweet WHERE username = 'ss Rotterdam'");
+            PreparedStatement getSSTweets = conn.prepareStatement("SELECT * FROM tweet WHERE username = 'wxrotterdam'");
 
             ResultSet rs2 = getSSTweets.executeQuery();
 
             int SStweetnum = 1;
             System.out.println("Getting tweets by SS Rotterdam...");
-            while (rs2.next() | SStweetnum < 20) {
+            while (rs2.next() && SStweetnum <= 20) {
 
                 String text = rs2.getString("description");
 
@@ -271,6 +271,7 @@ public class TwitterController {
                 } else if (SStweetnum == 20) {
                     SSTweet20 = text;
                 }
+
                 SStweetnum++;
             }
 
@@ -279,7 +280,7 @@ public class TwitterController {
             ResultSet rs3 = getMFTweets.executeQuery();
             int MFtweetnum = 1;
             System.out.println("Getting tweets about SS Rotterdam with the most followers");
-            while (rs3.next() | MFtweetnum < 20) {
+            while (rs3.next() && MFtweetnum <= 20) {
 
                 String text = rs3.getString("description");
 
