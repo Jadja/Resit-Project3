@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="twitter4j">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/javadoc" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/internal-async/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/internal-http/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/internal-json/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/internal-logging/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/internal-util/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/jmx/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/main/java" />
+      <root url="jar://$USER_HOME$/Downloads/twitter4j-4.0.3.zip!/twitter4j-core/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
