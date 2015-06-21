@@ -7,6 +7,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 
 import java.sql.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * Created by Jimi Kruter on 20-6-2015.
@@ -51,6 +54,107 @@ public class TwitterController {
         Connection conn = null;
 
         try {
+
+            twitter4j.Twitter twitter =  TwitterFactory.getSingleton();
+            Query query = new Query("SS Rotterdam");
+            query.setCount(50); // Aantal tweets ophalen
+            QueryResult result = twitter.search(query);
+
+            String t_discription;
+            String t_username;
+            int t_followerCount;
+            String t_is_retweet;
+            int t_retweetCount;
+            int t_favoriteCount;
+            String t_id;
+
+            //Date t_date;
+            int t_tags;
+
+            for (Status status : result.getTweets()) {// print uit
+
+                t_id = String.valueOf(status.getId());
+                t_username =  status.getUser().getName();
+                t_discription =  status.getText();
+
+                //t_tags = status.getHashtagEntities(status.getText());
+
+                // t_tags = status.getHashtagEntities();
+
+                t_is_retweet = String.valueOf(status.isRetweeted());
+                t_retweetCount = status.getRetweetCount();
+                t_favoriteCount = status.getFavoriteCount();
+                t_followerCount = status.getUser().getFollowersCount();
+
+                DateFormat df = new SimpleDateFormat("MM/dd/yyyy");
+                java.util.Date t_date = status.getCreatedAt();
+                String t_date_format = df.format(t_date);
+
+                try {
+
+                    db_con = DriverManager.getConnection(db_url, db_username, db_password);
+                    db_stmt = db_con.createStatement();
+                    //System.out.println(status.getCreatedAt());
+                    String sql = "INSERT INTO boerme1q_twitter.tweet "
+                            + "(tweet_id,username, description, tags, is_retweet, total_retweets, total_favorites, total_followers, time_stamp) "
+                            + "VALUES (?,?,?,?,?,?,?,?,?) "
+                            + "ON DUPLICATE KEY UPDATE "
+                            + "total_retweets  = VALUES(total_retweets), "
+                            + "total_favorites = VALUES(total_favorites), "
+                            + "total_followers = VALUES(total_followers), "
+                            + "time_stamp = VALUES(time_stamp) ";
+
+                    //System.out.println(t_id);
+//                    String sql = "IF EXISTS (SELECT * FROM boerme1q_twitter.tweet WHERE tweet_id = t_id) "
+//                            + "UPDATE boerme1q_twitter.tweet "
+//                            + "SET username = t_username, description = t_discription, is_retweet = t_is_retweet, total_retweets = t_retweetCount, total_favorites = t_favoriteCount, total_followers = t_followerCount "
+//                            + "WHERE tweet_id = t_id "
+//                            + "ELSE "
+//                            + "INSERT INTO boerme1q_twitter.tweet "
+//                            + "(tweet_id,username, description, tags, is_retweet, total_retweets, total_favorites, total_followers, time_stamp) "
+//                            + "VALUES (?,?,?,?,?,?,?,?,?)";
+
+                    PreparedStatement preparedStatement2 = db_con.prepareStatement(sql);
+
+                    //preparedStatement2.setString(1, ?);
+                    preparedStatement2.setString(1, t_id);
+                    preparedStatement2.setString(2, t_username);
+                    preparedStatement2.setString(3, t_discription);
+                    //     preparedStatement2.setString(4, t_tags);
+                    preparedStatement2.setString(4, "tag");
+                    preparedStatement2.setString(5, t_is_retweet);
+                    preparedStatement2.setInt(6, t_retweetCount);
+                    preparedStatement2.setInt(7, t_favoriteCount);
+                    preparedStatement2.setInt(8, t_followerCount);
+                    preparedStatement2.setString(9, t_date_format);
+                    //    preparedStatement2.setTimestamp(9, "2015-04-01");
+                    preparedStatement2.setString(9, "2008-11-11");
+
+
+//                    preparedStatement2.setInt(1, 2);
+//                    preparedStatement2.setString(2, "TestUser");
+//                    preparedStatement2.setString(3, "Desc");
+//                    preparedStatement2.setString(4, "tag");
+//                    preparedStatement2.setInt(5, 1);
+//                    preparedStatement2.setInt(6, 1);
+//                    preparedStatement2.setInt(7, 3);
+//                    preparedStatement2.setInt(8, 5);
+//                    preparedStatement2.setString(9, "2008-11-11");
+
+
+                    preparedStatement2.execute();
+                    /**Close connection with Database **/
+                    db_con.close();
+                    System.out.println("Insert into database");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }catch (TwitterException te) { // error message
+            te.printStackTrace();
+            System.out.println("Failed : " + te.getMessage());
+            System.exit(0);
+        }
 
             Class.forName(JDBC_DRIVER);
 
