@@ -206,7 +206,7 @@ public class TwitterController {
 
             PreparedStatement getMFTweets = conn.prepareStatement("SELECT * FROM tweet WHERE username = 'ss Rotterdam'");
 
-            ResultSet rs3 = getSSTweets.executeQuery();
+            ResultSet rs3 = getMFTweets.executeQuery();
             int MFtweetnum = 1;
             System.out.println("Getting tweets about SS Rotterdam with the most followers");
             while (rs3.next() | MFtweetnum < 20) {
