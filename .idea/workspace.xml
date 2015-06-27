@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="244aee39-87b4-441b-8cbd-394b25fc73f5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.fxml" afterPath="$PROJECT_DIR$/src/Main.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TwitterController.java" afterPath="$PROJECT_DIR$/src/TwitterController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -45,33 +46,26 @@
       <file leaf-file-name="TwitterController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47719297">
-              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.33208954">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-                <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-                <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-                <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-                <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-                <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-                <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-                <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
+                <element signature="e#2824#2839#0" expanded="true" />
+                <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+                <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+                <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+                <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -143,7 +137,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,8 +177,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,11 +469,13 @@
       <workItem from="1434894273025" duration="1126000" />
       <workItem from="1434895418853" duration="3124000" />
       <workItem from="1434910375440" duration="3028000" />
+      <workItem from="1434964830332" duration="421000" />
+      <workItem from="1435412113245" duration="3437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23539000" />
+    <option name="totallyTimeSpent" value="27397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,21 +488,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33777776" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.50213903" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.49786097" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.142246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8572193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8572193" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -554,274 +550,21 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Herkansing project 3.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -846,18 +589,405 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47719297">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1434912208557" expanded="true" signature="3891:4178" placeholder="INSERT INTO ..." />
-            <marker date="1434912208557" expanded="true" signature="4179:4477" placeholder="UPDATE total..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7503" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="7484:7519" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="9515:9565" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11675" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11703" placeholder="SELECT * FRO..tweet..." />
-            <marker date="1434912208557" expanded="true" signature="11649:11719" placeholder="SELECT * FRO..tweet..." />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Herkansing project 3.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6828358">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwitterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208954">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2824#2839#0" expanded="true" />
+            <marker date="1435415256731" expanded="true" signature="4541:4828" placeholder="INSERT INTO ..." />
+            <marker date="1435415256731" expanded="true" signature="4829:5127" placeholder="UPDATE total..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8153" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="8134:8169" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="10165:10215" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12325" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12353" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="12299:12369" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14509" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14522" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14484:14535" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14617:14668" placeholder="SELECT * FRO..tweet..." />
+            <marker date="1435415256731" expanded="true" signature="14757:14808" placeholder="SELECT * FRO..tweet..." />
           </folding>
         </state>
       </provider>

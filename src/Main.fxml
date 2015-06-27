@@ -2,6 +2,7 @@
 
 <?import java.lang.*?>
 <?import java.util.*?>
+<?import javafx.scene.chart.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
@@ -9,21 +10,26 @@
 <AnchorPane id="AnchorPane" maxHeight="768.0" maxWidth="1024.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="TwitterController">
   <children>
     <Button fx:id="btn" layoutX="464.0" layoutY="712.0" mnemonicParsing="false" onAction="#start" prefHeight="29.0" prefWidth="96.0" text="Start" />
-    <ListView fx:id="list6" layoutX="268.0" layoutY="374.0" prefHeight="294.0" prefWidth="225.0" />
     <ListView fx:id="list5" layoutX="14.0" layoutY="374.0" prefHeight="294.0" prefWidth="225.0" />
     <ListView fx:id="list4" layoutX="785.0" layoutY="40.0" prefHeight="294.0" prefWidth="225.0" />
     <ListView fx:id="list3" layoutX="533.0" layoutY="40.0" prefHeight="294.0" prefWidth="225.0" />
     <ListView fx:id="list2" layoutX="268.0" layoutY="40.0" prefHeight="294.0" prefWidth="225.0" />
     <ListView fx:id="list1" layoutX="14.0" layoutY="40.0" prefHeight="294.0" prefWidth="225.0" />
-    <ListView fx:id="list7" layoutX="533.0" layoutY="374.0" prefHeight="294.0" prefWidth="225.0" />
-    <ListView fx:id="list8" layoutX="785.0" layoutY="374.0" prefHeight="294.0" prefWidth="225.0" />
+    <ListView fx:id="list7" layoutX="268.0" layoutY="375.0" prefHeight="294.0" prefWidth="225.0" />
     <Label fx:id="text1" alignment="CENTER" layoutX="14.0" layoutY="20.0" prefWidth="235.0" text="" />
     <Label fx:id="text2" alignment="CENTER" layoutX="268.0" layoutY="20.0" prefWidth="225.0" text="" />
     <Label fx:id="text3" alignment="CENTER" layoutX="533.0" layoutY="20.0" prefWidth="225.0" text="" />
     <Label fx:id="text4" alignment="CENTER" layoutX="785.0" layoutY="20.0" prefWidth="225.0" text="" />
     <Label fx:id="text5" alignment="CENTER" layoutX="14.0" layoutY="354.0" prefWidth="225.0" text="" />
-    <Label fx:id="text6" alignment="CENTER" layoutX="268.0" layoutY="354.0" prefWidth="225.0" text="" />
-    <Label fx:id="text8" alignment="CENTER" layoutX="785.0" layoutY="354.0" prefWidth="225.0" text="" />
-    <Label fx:id="text7" alignment="CENTER" layoutX="534.0" layoutY="354.0" prefWidth="225.0" text="" />
+    <Label id="text8" fx:id="barcharttext1" alignment="CENTER" layoutX="581.0" layoutY="364.0" prefWidth="429.0" text="" />
+    <Label fx:id="text7" alignment="CENTER" layoutX="268.0" layoutY="354.0" prefWidth="225.0" text="" />
+    <BarChart fx:id="barchart1" layoutX="533.0" layoutY="375.0" prefHeight="294.0" prefWidth="477.0000999999975">
+      <xAxis>
+        <CategoryAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </BarChart>
   </children>
 </AnchorPane>

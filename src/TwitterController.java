@@ -2,6 +2,11 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.Scene;
+import javafx.scene.chart.BarChart;
+import javafx.scene.chart.CategoryAxis;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
@@ -24,25 +29,32 @@ public class TwitterController {
     static final String PASSWORD = "root";
     Statement db_stmt = null;
 
+    public String today = "06/27/2015";
+    public String yesterday = "06/26/2015";
+    public String daybeforeyesterday = "06/25/2015";
+
     public Button btn;
+
+    public Label barcharttext1;
+
+    int todayTweets;
+    int yesterdayTweets;
+    int beforeYesterdayTweets;
 
     public ListView list1;
     public ListView list2;
     public ListView list3;
     public ListView list4;
     public ListView list5;
-    public ListView list6;
     public ListView list7;
-    public ListView list8;
 
     public Label text1;
     public Label text2;
     public Label text3;
     public Label text4;
     public Label text5;
-    public Label text6;
     public Label text7;
-    public Label text8;
+
 
     String Tweet1;String Tweet2;String Tweet3;String Tweet4;String Tweet5;String Tweet6;String Tweet7;String Tweet8;String Tweet9;String Tweet10;String Tweet11;String Tweet12;String Tweet13;String Tweet14;String Tweet15;String Tweet16;String Tweet17;String Tweet18;String Tweet19;String Tweet20;
     String SSTweet1 = "";String SSTweet2 = "";String SSTweet3 = "";String SSTweet4 = "";String SSTweet5 = "";String SSTweet6 = "";String SSTweet7 = "";String SSTweet8 = "";String SSTweet9 = "";String SSTweet10 = "";String SSTweet11 = "";String SSTweet12 = "";String SSTweet13 = "";String SSTweet14 = "";String SSTweet15 = "";String SSTweet16 = "";String SSTweet17 = "";String SSTweet18 = "";String SSTweet19 = "";String SSTweet20 = "";
@@ -52,6 +64,14 @@ public class TwitterController {
     @FXML
     public void start(ActionEvent actionEvent) {
         btn.setText("Refresh");
+
+        final CategoryAxis xAxis = new CategoryAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        final BarChart<String,Number> barchart1 =
+                new BarChart<String,Number>(xAxis,yAxis);
+        barchart1.setTitle("TweetCount");
+        xAxis.setLabel("Day");
+        yAxis.setLabel("TweetCount");
 
         Connection conn = null;
 
@@ -329,6 +349,29 @@ public class TwitterController {
             }
 
 
+            PreparedStatement getTweetAmountToday = conn.prepareStatement("SELECT * FROM tweet WHERE time_stamp = '06/27/2015'");
+            PreparedStatement getTweetAmountYesterday= conn.prepareStatement("SELECT * FROM tweet WHERE time_stamp = '06/26/2015'");
+            PreparedStatement getTweetAmountBeforeYesterday = conn.prepareStatement("SELECT * FROM tweet WHERE time_stamp = '06/25/2015'");
+
+            ResultSet rsToday = getTweetAmountToday.executeQuery();
+            ResultSet rsYesterday = getTweetAmountYesterday.executeQuery();
+            ResultSet rsBeforeYesterday = getTweetAmountBeforeYesterday.executeQuery();
+
+
+
+            System.out.println("Getting tweet count from the last 3 days...");
+            while (rsToday.next()) {
+                todayTweets++;
+            }
+            while (rsYesterday.next()) {
+                yesterdayTweets++;
+            }
+            while (rsBeforeYesterday.next()) {
+                beforeYesterdayTweets++;
+            }
+
+
+
             conn.close();
 
         }
@@ -354,15 +397,14 @@ public class TwitterController {
         ObservableList<String> items5 = FXCollections.observableArrayList(
                 Tweet1, Tweet2, Tweet3, Tweet4, Tweet5, Tweet6, Tweet7, Tweet8, Tweet9, Tweet10, Tweet11, Tweet12, Tweet13, Tweet14, Tweet15, Tweet16, Tweet17, Tweet18, Tweet19, Tweet20
         );
-        ObservableList<String> items6 = FXCollections.observableArrayList(
-                Tweet1, Tweet2, Tweet3, Tweet4, Tweet5, Tweet6, Tweet7, Tweet8, Tweet9, Tweet10, Tweet11, Tweet12, Tweet13, Tweet14, Tweet15, Tweet16, Tweet17, Tweet18, Tweet19, Tweet20
-        );
         ObservableList<String> items7 = FXCollections.observableArrayList(
                 MFTweet1, MFTweet2, MFTweet3, MFTweet4, MFTweet5, MFTweet6, MFTweet7, MFTweet8, MFTweet9, MFTweet10, MFTweet11, MFTweet12, MFTweet13, MFTweet14, MFTweet15, MFTweet16, MFTweet17, MFTweet18, MFTweet19, MFTweet20
         );
-        ObservableList<String> items8 = FXCollections.observableArrayList(
-                Tweet1, Tweet2, Tweet3, Tweet4, Tweet5, Tweet6, Tweet7, Tweet8, Tweet9, Tweet10, Tweet11, Tweet12, Tweet13, Tweet14, Tweet15, Tweet16, Tweet17, Tweet18, Tweet19, Tweet20
-        );
+        XYChart.Series series1 = new XYChart.Series();
+        series1.setName("Tweetcount");
+        series1.getData().add(new XYChart.Data(today, todayTweets));
+        series1.getData().add(new XYChart.Data(yesterday, yesterdayTweets));
+        series1.getData().add(new XYChart.Data(daybeforeyesterday, beforeYesterdayTweets));
 
 
             list1.setItems(items1);
@@ -370,17 +412,16 @@ public class TwitterController {
             list3.setItems(items3);
             list4.setItems(items4);
             list5.setItems(items5);
-            list6.setItems(items6);
             list7.setItems(items7);
-            list8.setItems(items8);
+            barchart1.setTitle("Tweet count");
+            barchart1.getData().addAll(series1);
 
             text1.setText("Last 20 tweets");
             text2.setText("Last 20 by SS ");
             text3.setText("Filler");
             text4.setText("Filler");
             text5.setText("Filler");
-            text6.setText("Filler");
+            barcharttext1.setText("Tweets count per day from the last 3 days");
             text7.setText("Tweets by most followed users");
-            text8.setText("Filler");
     }
 }
